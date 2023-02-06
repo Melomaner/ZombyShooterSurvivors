@@ -15,7 +15,7 @@ F:/Unity/ZombyShooterSurvivors
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-22718
+4199
 Successfully changed project path to: F:/Unity/ZombyShooterSurvivors
 F:/Unity/ZombyShooterSurvivors
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Unity/ZombyShooterSurvivors
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8476] Host "[IP] 192.168.3.4 [Port] 0 [Flags] 2 [Guid] 3337229117 [EditorId] 3337229117 [Version] 1048832 [Id] WindowsEditor(7,Melomaner) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22168] Host "[IP] 192.168.3.4 [Port] 0 [Flags] 2 [Guid] 2419823670 [EditorId] 2419823670 [Version] 1048832 [Id] WindowsEditor(7,Melomaner) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8476] Host "[IP] 192.168.3.4 [Port] 0 [Flags] 2 [Guid] 3337229117 [EditorId] 3337229117 [Version] 1048832 [Id] WindowsEditor(7,Melomaner) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22168] Host "[IP] 192.168.3.4 [Port] 0 [Flags] 2 [Guid] 2419823670 [EditorId] 2419823670 [Version] 1048832 [Id] WindowsEditor(7,Melomaner) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 24.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 27.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.3f1 (55531d7fa82e)
 [Subsystems] Discovering subsystems at path G:/Unity/2022.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -67,52 +67,51 @@ Initialize mono
 Mono path[0] = 'G:/Unity/2022.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity/2022.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Unity/2022.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity/2022.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: G:/Unity/2022.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: G:/Unity/2022.2.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: G:/Unity/2022.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.078168 seconds.
-- Loaded All Assemblies, in  1.360 seconds
+Registered in 0.015051 seconds.
+- Loaded All Assemblies, in  0.577 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-[usbmuxd] Attached: 47 dea5446b8e7f5eabbe7a2d999eeecb12a06d283e
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3493 ms
+Android Extension - Scanning For ADB Devices 388 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.183 seconds
+- Finished resetting the current domain, in  0.822 seconds
 Domain Reload Profiling:
-	ReloadAssembly (701ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (314ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (218ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (648ms)
-				TypeCache.Initialize (648ms)
-					TypeCache.ScanAssembly (646ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (256ms)
+				TypeCache.Initialize (255ms)
+					TypeCache.ScanAssembly (253ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (4043ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3680ms)
-				SetLoadedEditorAssemblies (24ms)
+				InitializePlatformSupportModulesInManaged (509ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -122,8 +121,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Unity\ZombyShooterSurvivors\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Unity\ZombyShooterSurvivors\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.155 seconds
-Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.105 seconds
+Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -146,44 +145,44 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.395 seconds
+- Finished resetting the current domain, in  1.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (628ms)
-		BeginReloadAssembly (395ms)
+	ReloadAssembly (307ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		LoadAllAssembliesAndSetupDomain (1526ms)
-			LoadAssemblies (332ms)
+			CreateAndSetChildDomain (27ms)
+		LoadAllAssembliesAndSetupDomain (798ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1421ms)
-				TypeCache.Initialize (757ms)
-					TypeCache.ScanAssembly (749ms)
-				ResolveRequiredComponents (5ms)
+			SetupTypeCache (741ms)
+				TypeCache.Initialize (446ms)
+					TypeCache.ScanAssembly (440ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2114ms)
+			SetupLoadedEditorAssemblies (1348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (9ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (1898ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (1188ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (68.6 KB). Loaded Objects now: 3882.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (68.8 KB). Loaded Objects now: 3908.
 Memory consumption went from 0.59 GB to 0.59 GB.
-Total: 17.819300 ms (FindLiveObjects: 0.483700 ms CreateObjectMapping: 0.612200 ms MarkObjects: 16.559300 ms  DeleteObjects: 0.162700 ms)
+Total: 19.160600 ms (FindLiveObjects: 0.378600 ms CreateObjectMapping: 0.448300 ms MarkObjects: 18.117200 ms  DeleteObjects: 0.215100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -199,250 +198,393 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1930707.098591 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Blaster_Material.mat
-  artifactKey: Guid(d1df56fcebd101f4e9d9e99b5d72d999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2108376.348924 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab
+  artifactKey: Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster_Material.mat using Guid(d1df56fcebd101f4e9d9e99b5d72d999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284560cc15948f530474a8d7cbd7139c') in 0.288590 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab using Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ef4db708acc529945d19edd0b21305') in 0.262394 seconds 
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/PistolEnergy 1.fbx
-  artifactKey: Guid(c063f6a36cae22f4cbe64aaed547be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000065 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab
+  artifactKey: Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/PistolEnergy 1.fbx using Guid(c063f6a36cae22f4cbe64aaed547be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34153fc4bd4eef06600a26a65a886c15') in 0.199990 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 525.773290 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/NewDay
-  artifactKey: Guid(74ffecb707bdd394d9f9aca9ef94e3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/NewDay using Guid(74ffecb707bdd394d9f9aca9ef94e3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d80011d0113d27feafada74d0415f8') in 0.014367 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.562493 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/NewDay/NewBlandBlaster.fbx
-  artifactKey: Guid(48754dd4cd455404d889c9c4e61d8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/NewDay/NewBlandBlaster.fbx using Guid(48754dd4cd455404d889c9c4e61d8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e4f484caca3de75accc95af588bbe5') in 0.076831 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/NewDay/NewBlandBlaster2.fbx
-  artifactKey: Guid(92c45d70107c6364789e7dc17d0f6f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/NewDay/NewBlandBlaster2.fbx using Guid(92c45d70107c6364789e7dc17d0f6f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80b66a40abf0cbc61342e97ceaae63e') in 0.063665 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 52.113596 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/NewDay/Blaster_Tex.003.png
-  artifactKey: Guid(751250925854a9743a5a8bb02c5298d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/NewDay/Blaster_Tex.003.png using Guid(751250925854a9743a5a8bb02c5298d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436ff8abe2233434e2a6377c7918d212') in 0.045600 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.643415 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/NewDay/Blaster_Material 1.mat
-  artifactKey: Guid(4d174ab2b68254445a3ee6a058e255b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/NewDay/Blaster_Material 1.mat using Guid(4d174ab2b68254445a3ee6a058e255b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e6f0e2f5b177778276b648d1c7e50') in 0.023760 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 975.059138 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/NewDay/BIGBlaster.fbx
-  artifactKey: Guid(7367a21a4264f814e996079c9123d06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/NewDay/BIGBlaster.fbx using Guid(7367a21a4264f814e996079c9123d06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b31384c71ab706af52b1db44ee9335') in 0.264331 seconds 
-Number of asset objects unloaded after import = 9
-[usbmuxd] Detached: 47 dea5446b8e7f5eabbe7a2d999eeecb12a06d283e
-========================================================================
-Received Import Request.
-  Time since last request: 19175.510244 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Blaster.fbx
-  artifactKey: Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.fbx using Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce01db911e7ee11f313304273216aa1') in 0.222568 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.fbx
-  artifactKey: Guid(301f989254c2d084c885d7bbb4d1a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.fbx using Guid(301f989254c2d084c885d7bbb4d1a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4d6286860a8c6d70f8251041ccd8bf') in 0.033396 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterArmo.fbx
-  artifactKey: Guid(f4cc35608475269458788ac3e3ceba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterArmo.fbx using Guid(f4cc35608475269458788ac3e3ceba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9cb58406b6d7d4dbee4d82eb5ef882') in 0.036227 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 11.309754 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/AllBlaster.png
-  artifactKey: Guid(f7a7e47f46eb35743b197fb9b68885dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/AllBlaster.png using Guid(f7a7e47f46eb35743b197fb9b68885dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954674a94948a38651fc03909b4479eb') in 0.028942 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab using Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21dbea6da7cc78a668ea7624018bef3') in 0.024174 seconds 
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.fbx
-  artifactKey: Guid(301f989254c2d084c885d7bbb4d1a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.fbx using Guid(301f989254c2d084c885d7bbb4d1a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1c911bdf5d8e1d5ae8140d055dbc09') in 0.040971 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Blaster.fbx
-  artifactKey: Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.fbx using Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4486f9d09006dcf27663b3f6a9dd82') in 0.036590 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterArmo.fbx
-  artifactKey: Guid(f4cc35608475269458788ac3e3ceba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterArmo.fbx using Guid(f4cc35608475269458788ac3e3ceba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065c15e769bcb8d4d600e10492eb1575') in 0.040160 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 63.637325 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Blaster.fbx
-  artifactKey: Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.fbx using Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82ec31c788a721780c1fd9d7b4f9875') in 0.035505 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/palette.mat
-  artifactKey: Guid(d222006503bb3164b8de1601c121eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/palette.mat using Guid(d222006503bb3164b8de1601c121eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76687cf85c5073d3d006e24405e56ca') in 0.022616 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 162.684897 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Models
-  artifactKey: Guid(aaade002bb5c5644a85c220e07b7a3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Models using Guid(aaade002bb5c5644a85c220e07b7a3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad7f3ac23f0863402dac29998d22563') in 0.010165 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 59.386916 seconds.
   path: Assets/VoxelObj/Weapon/Pistol/Blaster.prefab
   artifactKey: Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a961e9e77ea0125ee3a8280ea2d810') in 0.077737 seconds 
-Number of asset objects unloaded after import = 17
+Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8747a0c0394644d21a63b14e7b2fba') in 0.023376 seconds 
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 161.805805 seconds.
+  path: Assets/Unity.VisualScripting.Generated
+  artifactKey: Guid(e61d79022d3d5754ebf360c3b88a44a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Unity.VisualScripting.Generated using Guid(e61d79022d3d5754ebf360c3b88a44a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557db21e04e88709731e6593df020f43') in 0.010441 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.918666 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Flow
+  artifactKey: Guid(1c3706ab9295b1346bf4d89519e10afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Flow using Guid(1c3706ab9295b1346bf4d89519e10afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96d6e200c13d37e1bc59263b836147a') in 0.013143 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.073736 seconds.
+  path: Assets/VoxelObj/chr_sword.obj
+  artifactKey: Guid(749cb6128fa99f94cba73e09c4d6ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/chr_sword.obj using Guid(749cb6128fa99f94cba73e09c4d6ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601e6014c89e9de713e5494e627e5a3a') in 0.115399 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab
-  artifactKey: Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/VoxelObj/chr_sword.png
+  artifactKey: Guid(6e936961499c9594e952765cef5fa4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab using Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893faad471758222a7a9f019fa6c3a1c') in 0.032827 seconds 
-Number of asset objects unloaded after import = 18
+Start importing Assets/VoxelObj/chr_sword.png using Guid(6e936961499c9594e952765cef5fa4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf256bf162ab77767ebbc02e7ff7af') in 0.105922 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VoxelObj/nature.obj
+  artifactKey: Guid(eeaa543f794c1c6449b9336d612e33b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/nature.obj using Guid(eeaa543f794c1c6449b9336d612e33b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c0b4f1bdd253fba9775c067cb43acb') in 0.058485 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/VoxelObj/nature.png
+  artifactKey: Guid(9f22e00b519640140be664bbe3c53978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/nature.png using Guid(9f22e00b519640140be664bbe3c53978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9c747c6baf4e670bbea45fe352cab9') in 0.014667 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.834183 seconds.
+  path: Assets/VoxelObj/Character
+  artifactKey: Guid(940a4278333a21b45af688939af756f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character using Guid(940a4278333a21b45af688939af756f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e70aaf452404c7563a3f12b6c85e8b6') in 0.010329 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 101.042618 seconds.
+  path: Assets/VoxelObj/VOX
+  artifactKey: Guid(09efbc2f695409f489e2b1837cc4251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/VOX using Guid(09efbc2f695409f489e2b1837cc4251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da289c8894b2780cfeaeee1b6ee009ff') in 0.011074 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 81.771442 seconds.
+  path: Assets/VoxelObj/VOX/Quake II Blaster.vox
+  artifactKey: Guid(304018dcab13ec24b9acfae763eb36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/VOX/Quake II Blaster.vox using Guid(304018dcab13ec24b9acfae763eb36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad43ff09c51b94c627597ec37a312f1') in 0.020141 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.412964 seconds.
+  path: Assets/VoxelObj/Character/Quake II Blaster.prefab
+  artifactKey: Guid(2c4408d97ce15e949bf48e0b78083d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character/Quake II Blaster.prefab using Guid(2c4408d97ce15e949bf48e0b78083d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42bf7f0f67610d06646dd630058b904') in 0.031529 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 315.474248 seconds.
+  path: Assets/VoxelObj/VOX/Blaster.vox
+  artifactKey: Guid(ff9f6b2dd688b674eb66413c1e3a06b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/VOX/Blaster.vox using Guid(ff9f6b2dd688b674eb66413c1e3a06b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3dffb0d378863cce575da00bcc8cb8') in 0.008937 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 127.411081 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/Blaster.prefab
+  artifactKey: Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ebfefd7585dd8cf970534d712ad495') in 0.269875 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 8.576709 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/Models/AllBlaster.png
+  artifactKey: Guid(f7a7e47f46eb35743b197fb9b68885dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Weapon/Pistol/Models/AllBlaster.png using Guid(f7a7e47f46eb35743b197fb9b68885dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdc83dc0e069d4b7b0f02b386fe395a') in 0.018560 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/Models/BlasterNoArmo.fbx
+  artifactKey: Guid(301f989254c2d084c885d7bbb4d1a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Weapon/Pistol/Models/BlasterNoArmo.fbx using Guid(301f989254c2d084c885d7bbb4d1a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c673d6d36b8425d21005a7d31e2636') in 0.040501 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/Models/Blaster.fbx
+  artifactKey: Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Weapon/Pistol/Models/Blaster.fbx using Guid(b86de67385a57e741b14a647e3efe4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ce26831e08a1c656b2a23969de15a') in 0.023172 seconds 
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab
-  artifactKey: Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/VoxelObj/Weapon/Pistol/Models/palette.mat
+  artifactKey: Guid(d222006503bb3164b8de1601c121eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab using Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16057ee86e0e7d9037fb6f05e650b042') in 0.021061 seconds 
-Number of asset objects unloaded after import = 18
+Start importing Assets/VoxelObj/Weapon/Pistol/Models/palette.mat using Guid(d222006503bb3164b8de1601c121eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c158ec0945bbf23ef80818ca2d8e071b') in 0.020322 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 91.803037 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab
-  artifactKey: Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000020 seconds.
+  path: Assets/VoxelObj/Weapon/Pistol/Models/BlasterArmo.fbx
+  artifactKey: Guid(f4cc35608475269458788ac3e3ceba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab using Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d8842af065192a6fdc4dd931b6dd3d') in 0.016372 seconds 
-Number of asset objects unloaded after import = 18
+Start importing Assets/VoxelObj/Weapon/Pistol/Models/BlasterArmo.fbx using Guid(f4cc35608475269458788ac3e3ceba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066f57a6ca00d90b424ae4ded14b7d6f') in 0.028221 seconds 
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 416.312847 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab
-  artifactKey: Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab using Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cac035129117d7fdf2068574f17d2c9') in 0.074909 seconds 
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 19.751190 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab
-  artifactKey: Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab using Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dfc01ff8ec3e5e4fa817f01f40ab53') in 0.047137 seconds 
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 7.720244 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab
-  artifactKey: Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterNoArmo.prefab using Guid(73e662f7ed8fa9642b83f4cbfb06fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cb6f3ce97132a767cb888da5ea0cd3') in 0.027945 seconds 
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 61.856466 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab
-  artifactKey: Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab using Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd86f89bb6eb29834c8a08ba40a0d2') in 0.024129 seconds 
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 225.578099 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab
-  artifactKey: Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab using Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32879576aa2042dcab1f5771b80a8c7') in 0.032259 seconds 
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 130.256208 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab
-  artifactKey: Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/BlasterWithArmo.prefab using Guid(8dfb215e4cf65ed4b9c624f11fc7fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bcfbb9fb4bb16c254af4c9ed568e59') in 0.022800 seconds 
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 8.264954 seconds.
+  Time since last request: 41.278708 seconds.
   path: Assets/VoxelObj/Weapon/Pistol/Blaster.prefab
   artifactKey: Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd5b293a198b1a2d0b4e3f6fc894150') in 0.035979 seconds 
-Number of asset objects unloaded after import = 61
+Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2c045c69721538891f4f3b80e3c16a') in 0.051722 seconds 
+Number of asset objects unloaded after import = 25
+[usbmuxd] Attached: 48 dea5446b8e7f5eabbe7a2d999eeecb12a06d283e
+[usbmuxd] Detached: 48 dea5446b8e7f5eabbe7a2d999eeecb12a06d283e
 ========================================================================
 Received Import Request.
-  Time since last request: 104.800034 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Blaster.prefab
-  artifactKey: Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 13793.293188 seconds.
+  path: Assets/VoxelObj/VOX/Character.vox
+  artifactKey: Guid(82087d87fca002a468f826086b740f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16df8e4c4daeebc3793830d75adba414') in 0.021193 seconds 
-Number of asset objects unloaded after import = 61
+Start importing Assets/VoxelObj/VOX/Character.vox using Guid(82087d87fca002a468f826086b740f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b44ab0abf7cdf49fd67f474a92c17f') in 0.106712 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 291.539679 seconds.
-  path: Assets/VoxelObj/Weapon/Pistol/Blaster.prefab
-  artifactKey: Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 22.585404 seconds.
+  path: Assets/VoxelObj/Character/Character.prefab
+  artifactKey: Guid(14ff0a7c40df94744965385755d47c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/VoxelObj/Weapon/Pistol/Blaster.prefab using Guid(6358c6c5788f643469a0ee76be9766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d90dc74eb6e63a34f3f7cc3a654101') in 0.044539 seconds 
-Number of asset objects unloaded after import = 61
+Start importing Assets/VoxelObj/Character/Character.prefab using Guid(14ff0a7c40df94744965385755d47c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfa0b038e9f6a586d2fa220ef9a3193') in 0.334647 seconds 
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity\ZombyShooterSurvivors\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity\ZombyShooterSurvivors\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.424 seconds
+Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (735ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (302ms)
+		LoadAllAssembliesAndSetupDomain (1523ms)
+			LoadAssemblies (344ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1418ms)
+				TypeCache.Initialize (841ms)
+					TypeCache.ScanAssembly (807ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (634ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.7 KB). Loaded Objects now: 3961.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 14.615300 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.324900 ms MarkObjects: 13.923900 ms  DeleteObjects: 0.044300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166.507722 seconds.
+  path: Assets/Character/Player.prefab
+  artifactKey: Guid(5576354445a444d45a81201744509ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Player.prefab using Guid(5576354445a444d45a81201744509ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee961073e67464b870798473b8d0a160') in 0.151325 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity\ZombyShooterSurvivors\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity\ZombyShooterSurvivors\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.273 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (285ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		LoadAllAssembliesAndSetupDomain (988ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (937ms)
+				TypeCache.Initialize (358ms)
+					TypeCache.ScanAssembly (350ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (950ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.7 KB). Loaded Objects now: 3965.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 15.544600 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.622200 ms MarkObjects: 14.450500 ms  DeleteObjects: 0.052700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.864545 seconds.
+  path: Assets/VoxelObj/Character/Character 1.prefab
+  artifactKey: Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character/Character 1.prefab using Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702117e20e4bf0ebf5275cec7214770e') in 0.095621 seconds 
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 5.621963 seconds.
+  path: Assets/VoxelObj/Character/Player.prefab
+  artifactKey: Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character/Player.prefab using Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2edd439b7c2d3900ed9d3e13bf7776e') in 0.027397 seconds 
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 875.755466 seconds.
+  path: Assets/VoxelObj/Character/Player.prefab
+  artifactKey: Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character/Player.prefab using Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03ccb0609d06aac69fd81fd4abccae6') in 0.056375 seconds 
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 88.317542 seconds.
+  path: Assets/VoxelObj/Character/Player.prefab
+  artifactKey: Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character/Player.prefab using Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598b65d21f736ffd21d5bd174885b3c7') in 0.025318 seconds 
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 1698.424522 seconds.
+  path: Assets/VoxelObj/Character/Player.prefab
+  artifactKey: Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VoxelObj/Character/Player.prefab using Guid(39a6b095f61dc784ca44c241a9de9c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef61f53f284ebc82570c7cc7dc2c3739') in 0.047044 seconds 
+Number of asset objects unloaded after import = 186
