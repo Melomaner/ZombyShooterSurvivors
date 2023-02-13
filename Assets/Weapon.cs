@@ -13,6 +13,7 @@ public class Weapon : MonoBehaviour
     public AudioClip shotSFX;
     public AudioSource audioSorce;
     public Camera cam;
+    public Animator WeaponAnimator;
 
     private float nextFire = 0;
 
@@ -33,6 +34,7 @@ public class Weapon : MonoBehaviour
     }
     void Shoot()
     {
+        WeaponAnimator.Play("Shoot");
         audioSorce.PlayOneShot(shotSFX);
         muzzleFlash.Play();
         RaycastHit hit;
