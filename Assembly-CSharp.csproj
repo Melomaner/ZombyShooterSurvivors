@@ -58,22 +58,39 @@
     <Analyzer Include="G:\Unity\2022.2.3f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\SurfaceManager\SurfaceManager.cs" />
     <Compile Include="Assets\Weapon.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\MagicaVoxel Toolbox\Script\RectPacking\RectPaking.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\ObjectPool\ObjectPool.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\FadeOutDecal.cs" />
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\ImpactType.cs" />
     <Compile Include="Assets\MagicaVoxel Toolbox\Script\SavingSystem\RuntimeSaving.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\SurfaceEffect.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\SurfaceType.cs" />
+    <Compile Include="Assets\Script\GunScriptable\ShootConfigurationScriptableObject.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\ObjectPool\PoolableObject.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\MagicaVoxel Toolbox\Script\SavingSystem\Saving.cs" />
+    <Compile Include="Assets\Script\GunScriptable\PlayerGunSelector.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Script\GunScriptable\PlayerAction.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\SpawnObjectEffect.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\Surface.cs" />
     <Compile Include="Assets\Weapons.cs" />
+    <Compile Include="Assets\Script\GunScriptable\GunScriptableObject.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\SimpleClickToShoot.cs" />
+    <Compile Include="Assets\Script\GunScriptable\TrailConfigScriptableObject.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Script\GunScriptable\GunType.cs" />
     <Compile Include="Assets\MoveCharacter.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Script\SurfaceManager\PlayAudioEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MagicaVoxel Toolbox\Script\Shader\Voxel.shader" />
