@@ -17,3 +17,4 @@ MonoBehaviour:
     m_Bits: 17
   Spread: {x: 0.05, y: 0.05, z: 0.05}
   FireRate: 0.1
+  Damage: 5

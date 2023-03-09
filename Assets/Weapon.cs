@@ -41,12 +41,12 @@ public class Weapon : MonoBehaviour
         if (Physics.Raycast(cam.transform.position,cam.transform.forward,out hit, range)) {
             if (hit.collider.GetComponent<Enemy>() != null)
             {
-                Enemy hitEnemy = hit.collider.GetComponent<Enemy>();
-                Debug.Log("Можно нанести урон ? " + hitEnemy.doDamage);
-                if (hitEnemy.doDamage)
-                {
-                    hitEnemy.Damage(damage);
-                }
+              //  Enemy hitEnemy = hit.collider.GetComponent<Enemy>();
+              //  Debug.Log("Можно нанести урон ? " + hitEnemy.doDamage);
+              //  if (hitEnemy.doDamage)
+              //  {
+               //     hitEnemy.Damage(damage);
+               // }
             }
         }
     }

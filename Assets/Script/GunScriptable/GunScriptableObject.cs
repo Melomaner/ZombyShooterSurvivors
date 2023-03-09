@@ -74,6 +74,11 @@ public class GunScriptableObject : ScriptableObject
                 ShootConfig.HitMask
                 ))
             {
+                if (hit.collider.TryGetComponent<IDamageable>(out IDamageable damageable))
+                {
+                    damageable.OnTakeDamage(10);
+                }
+
                 ActiveMonoBehaviour.StartCoroutine(
                     PlayTrail(
                         ShootSystem.transform.position,
